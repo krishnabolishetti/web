@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conversion</title>
+    <link rel="stylesheet" href="./conversion.js">
+    <link rel="stylesheet" href="./Dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"  integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+       <header class="heard-bar">
+           <div class="we">
+             <i class="fa-solid fa-bars" ></i>
+            </div>
+           <div class="notifi">
+            <i class="fa-regular fa-bell"></i>
+           </div>
+           <div class="pro-pic">
+            <i class="fa-solid fa-user-plus"></i>
+           </div>
+       </header>
+      <div class="aside-bar">
+         <div class="logo">
+            <a href="https://edvedha.com/" target="_blank">
+                <img src="./edvedha.jpg" alt="" >
+            </a>
+         </div>
+         <div class="wellcome">
+              <h2>Wellcome...</h2>
+            <!-- <input type="text"> --> 
+         </div>
+         <div class="menu">
+            <ul class="ul">
+                <li class="li">
+                   <a href="./Dashboard.html">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Dashboard</span>
+                   </a>
+                </li>
+                <li class="li">
+                    <a href="./lead.html">
+                        <i class="fa-solid fa-briefcase"></i>  
+                          <span>Leads</span>
+                    </a>
+                 </li>
+                 <li class="li">
+                    <a href="./conversion.html">
+                        <i class="fa-solid fa-phone-flip"></i>
+                        <span>Conversion</span>
+                    </a>
+                 </li>
+                 <li class="li">
+                    <a href="./prospect.html">
+                     <i class="fa-solid fa-users-line"></i>
+                        <span>Prospect</span>
+                    </a>
+                 </li>
+                 <li class="li">
+                    <a href="./dynamic.html">
+                        <i class="fa-solid fa-link"></i>
+                        <span>Dynamic Links</span>
+                    </a>
+                 </li>
+                 <li class="li">
+                    <a href="./profile.html">
+                     <i class="fa-solid fa-user-gear"></i>           
+                        <span>Setting</span>
+                    </a>
+                 </li>
+                 <li class="li">
+                  <a href="">
+                     <i class="fa-solid fa-circle-question"></i>           
+                      <span>Help</span>
+                  </a>
+               </li>
+            </ul>
+         </div>
+         <div class="aside-foot">
+            <i class="fa-solid fa-right-from-bracket"></i>
+            <span>Logout</span>
+         </div>
+      </div>
+
+    </div>
+    <!-- main container -->
+    <div class="main-container">
+            <div class="card">
+               <header class="heads">Overall Sales </header>
+              <div class="card-canvas">
+                <canvas id="salesChart"></canvas>
+               </div>
+           </div>
+           <div class="card">
+            <header>Employee Performance </header>
+              
+              <div class="card-canvas"> 
+               <canvas id="employeeChart"></canvas>
+               </div>
+            
+           </div>
+           <div class="task-Manager">
+            <header>Task Manager </header>
+              <div class="task">
+               <label for="">Total  Assigned :</label>
+               <input type="text"><br>
+               <label for="">NO.of Dialled :</label>
+               <input type="text"><br>
+               <label for="">Prospect Clints :</label>
+               <input type="text"><br>
+               <label for="">Untouched/New :</label>
+               <input type="text"><br>
+              </div>
+              <div class="task">
+               <label for="">Not Interested :</label>
+               <input type="text"><br>
+               <label for="">Not Answering :</label>
+               <input type="text"><br>
+               <label for="">Not Connected :</label>
+               <input type="text"><br>
+               <label for="">Task Completed :</label>
+               <input type="text"><br>
+              </div>
+              <canvas id="salesChart"></canvas>
+          </div>
+          <div class="Profile">
+            <header>My Performance </header>
+             <div class="profile-pic">
+               <!-- inset image -->
+             </div>
+             <div class="profile-pictext">
+               <label for="">Rank :</label>
+               <input type="number"><br>
+               <label for="">No.of.Sales :</label>
+               <input type="number">
+             </div>
+             <canvas id="salesChart"></canvas>
+          </div>
+           
+               
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./Dashboard.js"></script>
+</body>
+</html>

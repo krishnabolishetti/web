@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+ font-family: Arial, Helvetica, sans-serif;
+}
+/* .container{
+    
+    
+} */
+.heard-bar{
+    width: 85%;
+    height: 7vh;
+    margin-left: 15%;
+    position: fixed;
+    background-color: #f8f9fa;
+    box-shadow: 2px 2px 4px 4px rgb(99, 97, 97);
+    
+}
+.we{
+    padding: 10px;
+    font-size: 20px;
+    float: left;
+}
+.notifi{
+  margin-left: 85%;
+  padding-top: 10px;
+  font-size: 25px;
+  float: left;
+}
+.pro-pic{
+    margin-left: 92%;
+    padding-top: 10px;
+    font-size: 25px;
+}
+.aside-bar{
+    width: 15%;
+    height: 100vh;
+    background-color: rgb(200, 84, 230);
+    position: static; 
+    float: left;
+    /* border: 2px solid red; */
+}
+.logo{
+    width: 100%;
+    height: 7vh;
+}
+.logo img{
+    width: 100%;
+    height: 7vh;
+}
+.wellcome{
+    width: 100%;
+    height: 10vh;
+}
+h2{
+    padding: 20px;
+}
+.wellcome::after{
+    content: '';
+    background: linear-gradient(to right,rgb(240, 3, 3), rgb(82, 82, 175),rgb(89, 156, 89));
+    height: 2px;
+    width: 13%;
+    position: absolute;
+    top: 17vh;
+    left: 1%;
+    border-radius: 100px;
+}
+.menu{
+    flex-grow: inherit;
+    height: max-content;
+    margin-top: 10px;
+}
+.fa-solid{
+    margin-right: 7px;
+}
+.ul{
+    /* border: 1px solid red;  */
+    margin: 5px;
+    
+}
+.li{
+    list-style-type: none;
+    padding: 13px;
+    font-size: larger;
+}
+.li a{
+    text-decoration: none;
+}
+.menu ul li:hover{
+    background: #f8f9fa;
+    border-radius: 8px;
+    color: black;
+    padding-left: 20px;
+    transition: 0.5s;
+}
+.aside-foot{
+    flex-grow: inherit;
+    height: 40px;
+    margin: 15vh 35px 0px 35px;
+    background-color: rgb(167, 145, 145);
+    padding: 10px 0px 0px 20px;
+    border-radius: 10px;
+    color:black;
+}
+.aside-foot:hover{
+    background: #f8f9fa;
+    border-radius: 8px;
+    color: black;
+    padding-left: 30px;
+    transition: 0.3s; 
+}
+.main-container{
+    width: 85%;
+    height: 91vh;
+    float: left;
+    margin-top: 9vh; 
+    background-image: url(./sales2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    position: fixed;
+    row-gap: 1px;
+}
+.card {
+    background-color: #f8fafc;
+    width: 48%;
+    height: 50%;
+    margin: 10px 10px 0px 10px;
+    /* overflow: scroll; */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-canvas{
+    width: 90%;
+    height: 80%;
+    margin-left: 30px;
+}
+/* .card-canvas1{
+    width: 1000px;
+    height: 85%;
+    margin-left: 30px;
+} */
+.task-Manager{
+    background-color: #ecf0f1;
+    width: 60%;
+    height: 45%;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgb(17, 6, 2);
+}
+.task-Manager .task{
+    width: 48%;
+    height: 70%;
+    margin: 5% 1% 0% 1%;
+    /* border: 1px solid red; */
+    float: left;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.task-Manager .task label{
+    width: 160px;
+    padding: 10px;
+    display: inline-block;
+}
+.task-Manager .task input{
+    width: 100px;
+    
+}
+.Profile{
+    background-color: #ecf0f1;
+    width: 36%;
+    height: 45%;
+    margin: 10px 10px 10px 15px;
+    border-radius: 8px;
+}
+.main-container header{
+    width: auto;
+    height: 40px ;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #64748b;
+    /* border: 1px solid red; */
+}
+.profile-pic{
+    width: 130px;
+    height: 130px;
+    margin: 15px 0px 0px 150px;
+    border-radius: 50%;
+    border: 3px solid rgb(161, 10, 124);
+}
+.profile-pictext{
+    margin: 5px 0px 0px 5px ;
+    text-align: center;
+}
+.profile-pictext label{
+    width: 130px;
+    display: inline-block;
+    padding: 5px;
+    font-size: larger;
+    font-weight: 600;
+}
+.profile-pictext input{
+    width: 100px;
+}
+.canvas{
+    width: 100%;
+    height: 100px;
+}
